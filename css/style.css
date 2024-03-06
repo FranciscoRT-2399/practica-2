@@ -175,3 +175,19 @@ h3 {
     grid-column: 2 / 4;
   }
 }
+
+/*Grid Nosotros*/
+.nosotros{  
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+
+@media (min-width: 768px) {
+  .nosotros{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+}
+

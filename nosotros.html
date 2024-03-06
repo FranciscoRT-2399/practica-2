@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width= , initial-scale=1.0" />
-  <title>FrontEnd Store</title>
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Staatliches&display=swap"
-    rel="stylesheet" />
-  <link rel="upload" href="css/styles.css" as="styles" />
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="upload" href="css/styles.css" as="styles" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img class="header__logo" src="img/logo.png" alt="Logotipo" />
+      </a>
+    </header>
 
-  <header class="header">
-    <a href="index.html"> 
-      <img class="header__logo" src="img/logo.png" alt="Logotipo"/> 
-    </a>
-  </header>
+    <nav class="nav">
+      <a class="nav__enlace" href="index.html">Tienda</a>
+      <a class="nav__enlace nav__enlace--activo" href="nosotros.html"
+        >Nosotros</a
+      >
+    </nav>
 
-  <nav class="nav">
-    <a class="nav__enlace" href="index.html">Tienda</a>
-    <a class="nav__enlace nav__enlace--activo" href="nosotros.html">Nosotros</a>
-  </nav>
+    <main class="contenedor">
+      <h1>Sobre Nosotros</h1>
 
-  <main class="contenedor">
-    <h1>
-      Nosotros
-    </h1>
+      <div class="nosotros">
+        <div class="nosotros_contenido">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, hic
+            quod unde quisquam earum nisi dolore cumque. Dolorem aliquam
+            voluptatum amet! Incidunt magnam ducimus, odio iusto quae dolore
+            quas accusantium.
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, hic
+            quod unde quisquam earum nisi dolore cumque. Dolorem aliquam
+            voluptatum amet! Incidunt magnam ducimus, odio iusto quae dolore
+            quas accusantium.
+          </p>
+        </div>
 
-  </main>
+        <img class="nosotros_imagen" src="/img/nosotros.jpg" alt="img nosotros">
+      </div>
+    </main>
 
-  <footer class="footer"> 
-    <p class="footer__txt"> © 2024 FrontEnd Store, Francisco R.T.</p>
-  </footer>
-
-</body>
+    <footer class="footer">
+      <p class="footer__txt">© 2024 FrontEnd Store, Francisco R.T.</p>
+    </footer>
+  </body>
 </html>
