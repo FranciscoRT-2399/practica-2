@@ -166,7 +166,7 @@ h3 {
 
 .grafico--node {
   grid-row: 8 / 9;
-  background-image: url(../img/grafico2.jpg);  
+  background-image: url(../img/grafico2.jpg);
 }
 
 @media (min-width: 768px) {
@@ -177,17 +177,57 @@ h3 {
 }
 
 /*Grid Nosotros*/
-.nosotros{  
+.nosotros {
   display: grid;
-  grid-template-columns: 1fr;
-  
+  grid-template-rows: repeat(2,auto);
 }
 
 @media (min-width: 768px) {
-  .nosotros{
+  .nosotros {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    column-gap: 2rem;
   }
-  
 }
 
+.nosotros__contenido{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nosotros__imagen{
+  grid-row: 1 / 2;
+  width: 100%;
+}
+
+@media(min-width: 768px){
+    .nosotros__imagen{
+      grid-column: 2 / 3;
+    }
+}
+
+/*iconos*/
+.bloques{
+  display:grid;
+  grid-template-columns: repeat(2, fr);
+  gap: 3rem;
+}
+
+@media(min-width: 768px){
+  .bloques{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.bloque{
+  text-align: center;
+}
+
+.bloque__titulo{
+  margin: 0;
+}
+
+.bloque__imagen{
+  width: 100%;
+}
