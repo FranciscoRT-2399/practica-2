@@ -9,12 +9,175 @@
       href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Staatliches&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="upload" href="css/styles.css" as="styles" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Hola que hacen</h1>
+    <header class="header">
+      <a href="index.html">
+        <img class="header__logo" src="img/logo.png" alt="Logotipo" />
+      </a>
+    </header>
 
-    <main></main>
+    <nav class="nav">
+      <a class="nav__enlace nav__enlace--activo" href="index.html">Tienda</a>
+      <a class="nav__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+      <h1>Nuestros Productos</h1>
+
+      <div class="grid">
+        <div class="producto">
+          <a href="producto.html">
+            <img class="producto__img" src="img/1.jpg" alt="producto" />
+            <div class="producto__info">
+              <p class="producto__nombre">VueJS</p>
+              <p class="producto__precio">$25</p>
+            </div>
+          </a>
+        </div>
+        <!--producto-->
+        <div class="producto">
+          <a href="producto.html">
+            <img class="producto__img" src="img/2.jpg" alt="producto" />
+            <div class="producto__info">
+              <p class="producto__nombre">AngularJS</p>
+              <p class="producto__precio">$25</p>
+            </div>
+          </a>
+        </div>
+        <!--producto-->
+        <div class="producto">
+          <a href="producto.html">
+            <img class="producto__img" src="img/3.jpg" alt="producto" />
+            <div class="producto__info">
+              <p class="producto__nombre">ReactJS</p>
+              <p class="producto__precio">$25</p>
+            </div>
+          </a>
+        </div>
+        <!--producto-->
+        <div class="producto">
+          <a href="producto.html">
+            <img class="producto__img" src="img/4.jpg" alt="producto" />
+            <div class="producto__info">
+              <p class="producto__nombre">Redux</p>
+              <p class="producto__precio">$25</p>
+            </div>
+          </a>
+        </div>
+        <!--producto-->
+        <div class="producto">
+          <a href="producto.html">
+            <img class="producto__img" src="img/5.jpg" alt="producto" />
+            <div class="producto__info">
+              <p class="producto__nombre">NodeJS</p>
+              <p class="producto__precio">$25</p>
+            </div>
+          </a>
+        </div>
+        <!--producto-->
+        <div class="producto">
+          <a href="producto.html">
+            <img class="producto__img" src="img/6.jpg" alt="producto" />
+            <div class="producto__info">
+              <p class="producto__nombre">SASS</p>
+              <p class="producto__precio">$25</p>
+            </div>
+          </a>
+        </div>
+        <!--producto-->
+        <div class="producto">
+          <a href="producto.html">
+            <img class="producto__img" src="img/7.jpg" alt="producto" />
+            <div class="producto__info">
+              <p class="producto__nombre">HTML5</p>
+              <p class="producto__precio">$25</p>
+            </div>
+          </a>
+        </div>
+        <!--producto-->
+        <div class="producto">
+          <a href="producto.html">
+            <img class="producto__img" src="img/8.jpg" alt="producto" />
+            <div class="producto__info">
+              <p class="producto__nombre">GitHub</p>
+              <p class="producto__precio">$25</p>
+            </div>
+          </a>
+        </div>
+        <!--producto-->
+        <div class="producto">
+          <a href="producto.html">
+            <img class="producto__img" src="img/9.jpg" alt="producto" />
+            <div class="producto__info">
+              <p class="producto__nombre">BulmaCSS</p>
+              <p class="producto__precio">$25</p>
+            </div>
+          </a>
+        </div>
+        <!--producto-->
+        <div class="producto">
+          <a href="producto.html">
+            <img class="producto__img" src="img/10.jpg" alt="producto" />
+            <div class="producto__info">
+              <p class="producto__nombre">TypeScript</p>
+              <p class="producto__precio">$25</p>
+            </div>
+          </a>
+        </div>
+        <!--producto-->
+        <div class="producto">
+          <a href="producto.html">
+            <img class="producto__img" src="img/11.jpg" alt="producto" />
+            <div class="producto__info">
+              <p class="producto__nombre">Drupal</p>
+              <p class="producto__precio">$25</p>
+            </div>
+          </a>
+        </div>
+        <!--producto-->
+        <div class="producto">
+          <a href="producto.html">
+            <img class="producto__img" src="img/12.jpg" alt="producto" />
+            <div class="producto__info">
+              <p class="producto__nombre">JavaScript</p>
+              <p class="producto__precio">$25</p>
+            </div>
+          </a>
+        </div>
+        <!--producto-->
+        <div class="producto">
+          <a href="producto.html">
+            <img class="producto__img" src="img/13.jpg" alt="producto" />
+            <div class="producto__info">
+              <p class="producto__nombre">GraphQL</p>
+              <p class="producto__precio">$25</p>
+            </div>
+          </a>
+        </div>
+        <!--producto-->
+        <div class="producto">
+          <a href="producto.html">
+            <img class="producto__img" src="img/14.jpg" alt="producto" />
+            <div class="producto__info">
+              <p class="producto__nombre">WP</p>
+              <p class="producto__precio">$25</p>
+            </div>
+          </a>
+        </div>
+        <!--producto-->
+
+        <div class="grafico grafico--camisas"></div>
+        <!--gráfico-->
+        <div class="grafico grafico--node"></div>
+        <!--gráfico-->
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__txt">© 2024 FrontEnd Store, Francisco R.T.</p>
+    </footer>
   </body>
 </html>
