@@ -1,56 +1,96 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width= , initial-scale=1.0" />
-    <title>FrontEnd Store</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Staatliches&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="upload" href="css/styles.css" as="styles" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <a href="index.html">
-        <img class="header__logo" src="img/logo.png" alt="Logotipo" />
-      </a>
-    </header>
 
-    <nav class="nav">
-      <a class="nav__enlace" href="index.html">Tienda</a>
-      <a class="nav__enlace nav__enlace--activo" href="nosotros.html"
-        >Nosotros</a
-      >
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width= , initial-scale=1.0" />
+  <title>FrontEnd Store</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Staatliches&display=swap"
+    rel="stylesheet" />
+  <link rel="upload" href="css/styles.css" as="styles" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-    <main class="contenedor">
-      <h1>Sobre Nosotros</h1>
+<body>
+  <header class="header">
+    <a href="index.html">
+      <img class="header__logo" src="img/logo.png" alt="Logotipo" />
+    </a>
+  </header>
 
-      <div class="nosotros">
-        <div class="nosotros_contenido">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, hic
-            quod unde quisquam earum nisi dolore cumque. Dolorem aliquam
-            voluptatum amet! Incidunt magnam ducimus, odio iusto quae dolore
-            quas accusantium.
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, hic
-            quod unde quisquam earum nisi dolore cumque. Dolorem aliquam
-            voluptatum amet! Incidunt magnam ducimus, odio iusto quae dolore
-            quas accusantium.
-          </p>
-        </div>
+  <nav class="nav">
+    <a class="nav__enlace" href="index.html">Tienda</a>
+    <a class="nav__enlace nav__enlace--activo" href="nosotros.html">Nosotros</a>
+  </nav>
 
-        <img class="nosotros_imagen" src="/img/nosotros.jpg" alt="img nosotros">
+  <main class="contenedor"> 
+    <h1>Sobre Nosotros</h1>
+
+    <div class="nosotros">
+      <div class="nosotros__contenido">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, hic
+          quod unde quisquam earum nisi dolore cumque. Dolorem aliquam
+          voluptatum amet! Incidunt magnam ducimus, odio iusto quae dolore
+          quas accusantium.
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, hic
+          quod unde quisquam earum nisi dolore cumque. Dolorem aliquam
+          voluptatum amet! Incidunt magnam ducimus, odio iusto quae dolore
+          quas accusantium.
+        </p>
       </div>
-    </main>
 
-    <footer class="footer">
-      <p class="footer__txt">© 2024 FrontEnd Store, Francisco R.T.</p>
-    </footer>
-  </body>
+      <img class="nosotros__imagen" src="/img/nosotros.jpg" alt="img nosotros">
+    </div>
+  </main>
+
+  <section class="contenedor comprar">
+    <h2 class="comprar__titulo">¿Por qué comprar con nosotros?</h2>
+    
+    <div class="bloques">
+
+      <div class="bloque">
+        <img class="bloque__imagen" src="/img/icono_1.png" alt="porque comprar"/>
+        <h3 class="bloque__titulo">El mejor precio</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, hic
+          quod unde quisquam earum nisi dolore cumque. Dolorem aliquam
+          voluptatum amet!</p>
+      </div> <!--Bloque-->
+
+      <div class="bloque">
+        <img class="bloque__imagen" src="/img/icono_2.png" alt="porque comprar"/>
+        <h3 class="bloque__titulo">Para Devs</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, hic
+          quod unde quisquam earum nisi dolore cumque. Dolorem aliquam
+          voluptatum amet!</p>
+      </div> <!--Bloque-->
+
+      <div class="bloque">
+        <img class="bloque__imagen" src="/img/icono_3.png" alt="porque comprar"/>
+        <h3 class="bloque__titulo">Envio gratis</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, hic
+          quod unde quisquam earum nisi dolore cumque. Dolorem aliquam
+          voluptatum amet!</p>
+      </div> <!--Bloque-->
+
+      <div class="bloque">
+        <img class="bloque__imagen" src="/img/icono_4.png" alt="porque comprar"/>
+        <h3 class="bloque__titulo">La mejor calidad</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, hic
+          quod unde quisquam earum nisi dolore cumque. Dolorem aliquam
+          voluptatum amet!</p>
+      </div> <!--Bloque-->
+
+    </div><!--Bloques-->
+  </section>
+
+  <footer class="footer">
+    <p class="footer__txt">© 2024 FrontEnd Store, Francisco R.T.</p>
+  </footer>
+</body>
+
 </html>
